@@ -20,6 +20,7 @@ namespace log4net.Unity
             
             public int Compare(IConfigurator x, IConfigurator y)
             {
+
                 var xOrder = x?.Order ?? 0;
                 var yOrder = y?.Order ?? 0;
                 
