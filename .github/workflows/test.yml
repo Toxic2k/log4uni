@@ -27,3 +27,4 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Test
         run: git subtree split -P Build/Release -b upm
+        shell: bash
