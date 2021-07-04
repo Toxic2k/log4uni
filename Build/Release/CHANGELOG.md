@@ -1,3 +1,4 @@
+
 # 1.0.3
 
 * [Feature] log4net.editor and log4net.runtime files now supported as config files in default configurators
